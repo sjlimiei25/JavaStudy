@@ -14,8 +14,8 @@ public class A_Arithmetic {
 	public static void method1() {
 		// 정수형 변수 n1 선언하고, 10을 대입
 		int n1 = 10;
-		// 정수형 변수 n2에 3을 대입
-		int n2 = 3;
+		// 정수형 변수 n2에 13을 대입
+		int n2 = 13;
 		
 		System.out.println("n1 + n2 = " + (n1 + n2));
 		// => n1 + n2 = 103 --> ()로 우선 수행할 연산을 묶어줌!
@@ -35,6 +35,7 @@ public class A_Arithmetic {
 		System.out.println("n2는 짝수인가? " + (n2 % 2 == 0));
 	}
 }
+
 
 
 
